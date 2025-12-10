@@ -1,0 +1,40 @@
+.G{
+    padding-bottom: 30px;
+}
+.GTXT{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+    margin: auto;
+}
+.GTXT2{
+    font-size: 17px;
+    text-align: center;
+    padding: 15px;
+    padding-top: 10px;
+}
+.GCCON{
+    display: grid;
+    justify-content: center;
+}
+@media(min-width:768px){
+    .GCCON{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width:1024px){
+    .GCCON{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .TXTD{
+        width: 650px;
+    }
+    .GTXT{
+        text-align: left;
+        margin-left: 50px;
+    }
+    .GTXT2{
+        text-align: left;
+    }
+}

@@ -1,0 +1,24 @@
+.CBD{
+    height: 250px;
+    width: 250px;
+    background-color: #cecece;
+    margin-top:20px;
+}
+.NOAPT{
+    color: #FF9900;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+.APT{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+@media(min-width:1024px){
+    .CBD{
+        margin-right: 50px;
+    }
+}

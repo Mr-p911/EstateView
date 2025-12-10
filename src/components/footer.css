@@ -1,0 +1,36 @@
+.FTDIV{
+    height: 800px;
+    background-color: black;
+}
+.FTLOGO{
+    width: 150px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.IMGD{
+    text-align: center;
+}
+.SUBTXT{
+    color: white;
+    text-align: center;
+    font-size: 29px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.SUBD{
+    text-align: center;
+}
+.NLI{
+    height: 50px;
+    width: 250px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+}
+.SUBBTN{
+    height: 55px;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #ff9900;
+}

@@ -1,0 +1,106 @@
+.GCON{
+    background-color: #F5F5F5;
+    width: 350px;
+    height: 620px;
+    margin-top: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    overflow: visible;
+}
+.FIMG{
+    height: 350px;
+    width: 300px;
+    margin: 25px;
+}
+.PADD{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.PP{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: gold;
+}
+.BRICN{
+    margin: 0px;
+}
+.NUMBR{
+    margin: 0px;
+}
+.HPROP{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+.BRICNNUMBR{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.BDICN{
+    margin-top: 5px;
+}
+.NUMBD{
+    margin-top: 0px;
+}
+.BDICNNUMBD{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.VPBTN{
+    width: 130px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 110px;
+    background-color: #FF9900;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    transition: all 0.1s ease-in-out;
+}
+.VPBTN:active{
+    border:2px solid #FF9900;
+    background-color: #F5F5F5;
+    color: #FF9900;
+    transform: translatey(-5px);
+}
+@media(min-width: 768px){
+    .GCON{
+        margin-left: 30px;
+    }
+}
+@media(min-width:1024px){
+    .GCON{
+        width: 420px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .GCON:hover{
+        transform: translateY(-8px);
+        box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5);
+    }
+    .FIMG{
+        width: 370px;
+    }
+    .PADD{
+        font-size: 20px;
+    }
+    .BRICNNUMBR{
+        margin-left: 100px;
+    }
+    .VPBTN{
+        margin-left: 140px;
+    }
+}
+

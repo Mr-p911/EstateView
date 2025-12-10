@@ -1,0 +1,32 @@
+.SB{
+    margin-bottom: 30px;
+}
+.STATSTXT{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+.CDIV{
+    display: grid;
+    justify-content: center;
+}
+@media(min-width:768px){
+    .CDIV{
+        grid-template-columns: 1fr 1fr;
+        margin-left: 100px;
+    }
+}
+@media(min-width:1024px){
+    .SB{
+        display: flex;
+    }
+    .STATSTXT{
+        font-size: 50px;
+        margin-left: 50px;
+        margin-top: 200px;
+        text-align: left;
+    }
+    .CDIV{
+        margin-right: 70px;
+    }
+}

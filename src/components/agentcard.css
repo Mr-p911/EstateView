@@ -1,0 +1,29 @@
+.CADIV{
+    height: 500px;
+    width: 350px;
+    background-color: #f5f5ff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+.AGTIMG{
+    width: 350px;
+    height: 350px;
+}
+.AGTNAME{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500
+}
+.ICNBX{
+    margin-left: 20px;
+    
+}
+.IGICN,.XICN{
+    margin-left: 15px;
+}
+@media(min-width:768px){
+    .CADIV{
+        margin-left: 30px;
+    }
+}

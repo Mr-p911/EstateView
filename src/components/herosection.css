@@ -1,0 +1,98 @@
+.HeroContainer{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+}
+.bannerimg{
+    margin-top: 5px;
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+.OverlayContent{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+
+}
+.OverlayTXT{
+    font-weight: 500;
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 0px
+}
+.SearchbarCon{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.Searchbar{
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+}
+.SearchBTN{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    width: 140px;
+    background-color: #FF9900;      
+    transition: all 0.1s ease-in-out;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+.SearchBTN:active{
+    background-color: white;
+    color: #FF9900;
+}
+.brkTXT{
+    display: block;
+}
+@media (min-width: 768px){
+    .HeroContainer{
+        height: 950px;
+    }
+    .bannerimg{
+        height: 950px;
+    }
+    .OverlayTXT{
+        font-weight: 500;
+        font-size: 50px;
+    }
+    .Searchbar{
+        width: 350px;
+        height: 60px;
+        font-size:30px ;
+        border-radius: 10px 0 0 10px;
+    }
+    .SearchBTN{
+        height: 65px;
+        width: 160px;
+        font-size: 28px;
+    }
+}
+@media (min-width: 1024px){
+    .HeroContainer{
+        height: 600px;
+    }
+    .bannerimg{
+        height: 600px;
+        margin-top: 0px;
+    }
+    .desktopBreakLine{
+        display: inline;
+    }
+    .OverlayContent{
+        display: flex;
+        flex-direction: row;
+    }
+    .SearchbarCon{
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+        margin-left:250px;
+    }
+}
+

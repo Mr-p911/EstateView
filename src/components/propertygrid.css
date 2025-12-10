@@ -1,0 +1,38 @@
+.div{
+    background-color: #e9e9e9;
+    padding-bottom: 50px;
+}
+.INTTXT{
+    text-align: center;
+    font-size: 30px;
+    font-weight:400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+}
+.PGCON{
+    display: grid;
+    justify-content: center;
+}
+@media(min-width: 768px){
+    .div{
+        padding-bottom: 50px;
+    }
+    .PGCON{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    .BRKTXT{
+        display: block;
+    }
+}
+@media(min-width: 1024px){
+    .div{
+        padding-bottom: 50px;
+    }
+    .PGCON{
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+    }
+}
