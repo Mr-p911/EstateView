@@ -1,5 +1,5 @@
 .FTDIV{
-    height: 800px;
+    padding-bottom: 10px;
     background-color: black;
 }
 .FTLOGO{
@@ -33,4 +33,40 @@
     font-size: 18px;
     border-radius: 0px 10px 10px 0px;
     background-color: #ff9900;
+}
+.FHOME{
+    margin-top: 30px;
+}
+.FHOME,.FBUY,.FRENT,.FAGENTS,.FGUIDE,.FSOC{
+    color: white;
+}
+.FooterLinks{
+    display: flex;
+    flex-direction: column;
+}
+.contacts{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.EXTNUM{
+    display: block;
+    margin-left: 100px;
+}
+.COPYTXT{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+@media(min-width:1024px){
+    .IMGD{
+        display: inline-block;
+    }
+    .TXTAINP{
+        display: inline-block;
+    }
+    .SUBTXT{
+        margin: 0px;
+        
+    }
 }

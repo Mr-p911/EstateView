@@ -42,7 +42,7 @@ function PropertyGrid(){
 
     return(
         <>
-        <div className='div'>
+        <div className='div' id='property-listings'>
             <p className='INTTXT'>More Than 500+ <span className='BRKTXT'>Apartments For Rents</span></p>
             <PropertyFilter onFilterChange={handleFilterChange}/>
             <div className='PGCON'>

@@ -3,3 +3,6 @@
     font-family: 'Poppins', sans-serif;
     background-color:#F5F5F5;
 }
+html{
+    scroll-behavior: smooth;
+}

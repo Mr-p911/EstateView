@@ -3,7 +3,7 @@ import Card from './guidecard.jsx'
 
 function guide(){
     return(
-        <div className='G'>
+        <div className='G' id='guide'>
             <p className='GTXT'>How We Operate?</p>
             <div className='TXTD'><p className='GTXT2'>We serve as the trusted digital marketplace, seamlessly connecting you with curated properties for sale and rent, and providing the tools for confident transactions. We offer Amazing Apartments and comforts at affordable prices that meets our clients taste and offer satisfaction.</p></div>
             <div className='GCCON'>

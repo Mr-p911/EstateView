@@ -7,7 +7,7 @@ import Agent4 from '../assets/Agent4.avif'
 
 function Agents(){
     return(
-        <div className='ADIV'>
+        <div className='ADIV' id='agent-listings'>
             <p className='ATXT'>Meet Our Top Agents</p>
             <div className='GDIV'>
                 <Card image={Agent2} agentName='John Oluwatobi'/>
