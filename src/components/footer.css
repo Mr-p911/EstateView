@@ -21,14 +21,14 @@
 }
 .NLI{
     height: 50px;
-    width: 250px;
+    width: 200px;
     font-size: 18px;
     text-align: center;
     border-radius: 10px 0px 0px 10px;
 }
 .SUBBTN{
     height: 55px;
-    width: 100px;
+    width: 90px;
     font-size: 18px;
     border-radius: 0px 10px 10px 0px;
     background-color: #ff9900;
