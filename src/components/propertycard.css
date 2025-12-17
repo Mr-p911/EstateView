@@ -28,7 +28,10 @@
     color: gold;
 }
 .BRICN{
-    margin-left: 30px;
+    margin-left: 60px;
+}
+.type-Sale .BRICN{
+    margin-left: 15px;
 }
 .NUMBR{
     margin: 0px;
@@ -46,7 +49,7 @@
     margin-left: 40px;
 }
 .BDICN{
-    margin-top: 2px;
+    margin-top: 6px;
 }
 .NUMBD{
     margin-top: 0px;

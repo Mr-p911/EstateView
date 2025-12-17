@@ -2,16 +2,17 @@ import './propertycard.css'
 import {FaBath} from 'react-icons/fa';
 import {FaBed} from 'react-icons/fa';
 
-function Card({id, image, description, price, baths, beds, onViewDetails}){
+function Card({id, image, description, price, baths, beds, type, onViewDetails}){
 
     const formattedPrice = new Intl.NumberFormat('en-us',{
         style: 'currency',
         currency: 'USD',
         minimumFractionDigits: 0,
     }).format(price);
+    const cardClassName = `GCON type-${type}`;
     return(
         <>
-        <div className='GCON'>
+        <div className={cardClassName}>
             <img src={image} className='FIMG'/>
             <p className='PADD'>{description}</p>
             <div className='HPROP'>

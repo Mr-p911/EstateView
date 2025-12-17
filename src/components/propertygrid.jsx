@@ -55,6 +55,7 @@ function PropertyGrid(){
                         price={property.price}
                         baths={property.baths}
                         beds={property.beds}
+                        type={property.type}
                         onViewDetails={handleViewDetails}
                     />
                 ))}
